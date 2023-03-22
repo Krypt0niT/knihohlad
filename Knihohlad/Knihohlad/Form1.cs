@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -93,36 +94,44 @@ namespace Knihohlad
                     databaseConnection.Open();
 
                     reader = commandDatabase.ExecuteReader();
-
+                        
                     if (reader.HasRows)
                     {
-                        int a = 0;
                         while (reader.Read())
                         {
-                            a++;
                             Nazov.Text = reader.GetString("nazov");
                             Autor.Text = reader.GetString("autor");
                             Popis.Text = reader.GetString("informacieoknihe");
-                            Image.ImageLocation = reader.GetString("obrazok");
-                            MessageBox.Show(Image.ImageLocation);
 
 
+                            PictureBox1.Load(reader.GetString("obrazok"));
                         }
 
                     }
-                
-
-
-
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
+
                 }
 
             }
         }
+        
 
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void VyhladavanieInput_TextChanged(object sender, EventArgs e)
+        {
+                
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
