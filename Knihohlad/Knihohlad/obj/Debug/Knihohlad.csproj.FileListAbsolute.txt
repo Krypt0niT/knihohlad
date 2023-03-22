@@ -63,3 +63,10 @@ A:\code\c#\knihohlad\Knihohlad\Knihohlad\obj\Debug\Knihohlad.csproj.CoreCompileI
 A:\code\c#\knihohlad\Knihohlad\Knihohlad\obj\Debug\Knihohlad.csproj.CopyComplete
 A:\code\c#\knihohlad\Knihohlad\Knihohlad\obj\Debug\Knihohlad.exe
 A:\code\c#\knihohlad\Knihohlad\Knihohlad\obj\Debug\Knihohlad.pdb
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.Native-Q16-arm64.dll
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.Native-Q16-x64.dll
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.Native-Q16-x86.dll
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.NET-Q16-AnyCPU.dll
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.NET.Core.dll
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.NET-Q16-AnyCPU.xml
+C:\code\c#\knihohlad\Knihohlad\Knihohlad\bin\Debug\Magick.NET.Core.xml
